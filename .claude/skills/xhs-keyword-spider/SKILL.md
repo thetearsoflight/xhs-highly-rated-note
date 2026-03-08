@@ -80,10 +80,10 @@ uv pip install --system -r requirements.txt
 
 ---
 
-### 步骤 4：导出到 Excel
+### 步骤 4：导出到 json
 
-- 使用 openpyxl 创建 Excel 文件
-- 保存到：`xhs_career_results.xlsx`
+- 使用 json 模块创建 json 文件
+- 保存到：`xhs_career_results.json`
 - 包含字段：标题、链接、点赞数
 
 ---
@@ -91,8 +91,8 @@ uv pip install --system -r requirements.txt
 ### 步骤 5：结果汇报
 
 - 告诉用户原始抓取数据数量
-- 告诉用户筛选后保存到 Excel 的数量
-- 确认 Excel 文件已生成
+- 告诉用户筛选后保存到 json 的数量
+- 确认 json 文件已生成
 
 ## 输出格式
 
@@ -102,7 +102,7 @@ uv pip install --system -r requirements.txt
 📊 统计信息：
 - 原始抓取数据：X 条
 - 筛选后数据：X 条（通过 LLM 智能筛选）
-- 保存位置：xhs_career_results.xlsx
+- 保存位置：xhs_career_results.json
 
 📝 筛选方式：使用 LLM 分析标题与搜索关键词的相关性
 ```
